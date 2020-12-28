@@ -1,0 +1,314 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="Description" content="Home of the best online JAvascript tutorial, Javascript academy! LEarn the basics of Javascript and programming such as values, variables, and functions">
+
+<title>JavaScript for the Non-programmer</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<link href="tutorials.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+<style>
+	section {
+	font-family: 'Raleway', sans-serif;
+	background-position: 0% 51%;
+	background-size: auto 127%;
+		}
+</style>
+</head>
+<body>
+<header>
+<img src="images/logo7.png" alt="Javascript Academy Logo" id="idxlogo">
+<nav>	
+	<ul class="navbar" id="left">
+	  <li> <button><a href="index.html">Home</a></button> </li>
+	  <li>
+			<button> <a href="tutorials.htm">Tutorials</a></button>
+		</li>
+	  	
+		<li>
+			<button> <a href="contact.htm">Contact Us</a></button>
+		</li>
+		<li>
+			<button> <a href="links.html">Links</a></button>
+		</li>
+		</ul>
+	</nav>
+	
+</header>
+<main>
+
+<section class="table">
+<div>
+  <h1> Tutorials</h1>
+</div>
+
+<article>
+
+
+<h2 class="warning">Warning: there are some buttons that allow pop ups on this page and some versions of ad-blocker have been found to not allow them to be used unless disabled on this site</h2>
+
+	<h2 class="center"> When doing web design, a very important thing to know is how CSS and HTML interact. JavaScript is used widely on the web as well. We will warm up with a starter example to help beginners/non-programmers learn the logic and syntax of JavaScript.</h2>
+	<br><br>
+<h2>#Intro</h2>
+		<h4 class="center no-break">It is important when styling to show different text colors</h4><h4 class="gold-text center no-break">like this</h4>
+		<h4 class="center no-break"> we do this by saying class="gold-text" inside of a tag for text like p, h1, h2, h3 or h4 and then assigning it in a style tag through the CSS property color. Sometimes it's just best to see for yourself.</h4>
+<figure class="code-sample">
+		<figcaption>
+			<h3>The Result of this code is the yellow text above</h3>
+		</figcaption>
+		<pre class="prettyprint">
+	    	<code class="prettyprint">
+
+<<span>h4 class="gold-text center no-break">like this</h4>
+<<span>style>
+	.gold-text{
+	color: #FFDF00;
+	}
+<<span>/style>
+
+			    </code>
+			  </pre>
+		</figure>
+
+
+<h2>#document.write() and</h2>
+<h2> Console log</h2>
+	<h3 class="center">When learning a new programming language, many follow a tradition of completing the "Hello world!" assignment. This may seem trivial, but it is a great way to make sure everything is set-up correctly on one's computer. So in spirit of this, let's try two ways to achieve this. The first one is document.write("Hello world!"). This will print text out on the web page itself.</h3>
+<figure class="code-sample">
+		<figcaption>
+			<h3>The first example of JavaScript</h3>
+		</figcaption>
+		<pre class="prettyprint">
+	    	<code class="prettyprint">
+				
+<<span>script type="text/javascript">
+	document.write("Hello world!");	
+<<span>/script>
+
+		    </code>
+		  </pre>
+	</figure>
+
+	<h3 class="center">Output:
+		<script type="text/javascript">
+			document.write(" Hello world!");	
+		</script>
+	</h3>
+
+	<h3 class="center">
+		The console.log("Hello world! is great for unit testing and light debugging.");
+	</h3>
+
+	<script type="text/javascript">console.log(Hello world!)</script>
+
+
+
+
+
+<h2>#Decalre Variables and Assign Values</h2>
+	<h4 class="center">This training is for beginners wanting to learn JavaScript. When using JavaScript with HTML, we save the file with ending of .html. In order to write JavaScript we have to inclose it in script tags. In this first example, we are going to use JavaScipt to add numbers one, two, three and up. Below the code example is where our result will be.</h4>
+
+	<figure class="code-sample">
+		<figcaption>
+			<h3>The first example of JavaScript</h3>
+		</figcaption>
+		<pre class="prettyprint">
+	    	<code class="prettyprint">
+
+
+				
+<<span>script type="text/javascript">
+	// First we do what is called declaring variables
+	 var one,two,three,result;
+
+	 //then we set them each to a value
+	 one = 1;
+	 two = 2;
+	 three = 3;
+	 result= num1 + num2 + num3;// six
+	 //Finally an output is written
+	 document.write("Result: ", result);
+<<span>/script>
+
+		    </code>
+		  </pre>
+	</figure>
+
+<h3 class="center">
+<script type="text/javascript">
+ var one,two,three,result;
+ one = 1;
+ two = 2;
+ three = 3;
+ result= one + two + three;
+ document.write("result= ", result);
+</script>
+</h3>
+
+
+
+<h2>#Data Types</h2>
+
+
+
+
+<h2>#Conditionals</h2>
+	<h3 class="center">In JavaScript, we have conditional statements called if and switch statements. The difference is that a switch statment will focus on one value only and the if leads into else-if's that can lead into unrelated values. Let's see an example!</h3>
+
+	<figure class="code-sample">
+		<figcaption>
+			<h3>The first example of JavaScript</h3>
+		</figcaption>
+		<pre class="prettyprint">
+	    	<code class="prettyprint">	
+var compare = 3;
+var n1,n2,n3,n4,n5;
+n1=1;
+n2=2;
+n3=3;
+n4=4;
+n5=5;
+//The Switch Statment comparing with only one value
+switch(compare){
+	case n1:
+		document.write("n1=compare");
+		break;
+	case n2:
+		document.write("n2=compare");
+		break;
+	case n3:
+		document.write("n3=compare    ");//same val
+		break;
+	case n4:
+		document.write("n4=compare");
+		break;
+	case n5:
+		document.write("n5=compare");
+	defualt:
+		document.write("none equaled")
+}
+//The if, else if and else
+if(n5==n4){
+	//they dont
+}
+else if(compare==n3){
+	document.write("n3=compare     ")
+}
+else{
+	document.write("none equaled")
+}
+		    </code>
+		  </pre>
+	</figure>
+
+<h3 class="center">
+	<script type="text/javascript">
+		var compare = 3;
+		var n1,n2,n3,n4,n5;
+		n1=1;
+		n2=2;
+		n3=3;
+		n4=4;
+		n5=5;
+
+		switch(compare){
+			case n1:
+				document.write("n1=compare");
+				break;
+			case n2:
+				document.write("n2=compare");
+				break;
+			case n3:
+				document.write("n3=compare    ");//same val
+				break;
+			case n4:
+				document.write("n4=compare");
+				break;
+			case n5:
+				document.write("n5=compare");
+			defualt:
+				document.write("none equaled")
+
+		}
+
+
+		if(n5==n4){
+			//they dont
+		}
+		else if(compare==n3){
+			document.write("n3=compare     ")
+		}
+		else{
+			document.write("none equaled")
+		}
+
+	</script>
+</h3>
+
+<h2>#Functions</h2>
+	<h3 class="center">Now it is time for a new concept. It is somthing called a function. A function allows us to write code and then call it to be used somewhere that way we don't have to write it all down again. Go ahead and press this button to see a pop-up display that has room for input and will spit input back out or null if nothing was entered. We will make more use of this next step.</h3>
+	<button id="bgnBtn" onclick="promptMe()" class="button center-button">Show Prompt</button>
+
+	<script type="text/javascript">
+		function promptMe(){
+	    	var input = prompt("Please provide an Adjective");
+	    	alert (input);
+		}
+	</script>
+
+	<figure class="code-sample">
+		<figcaption>
+			<h3>The code for the pop-up window</h3>
+		</figcaption>
+		<pre class="prettyprint">
+	    	<code class="prettyprint">
+				
+<<span>button id="bgnBtn" onclick="promptMe()">Start Game<<span>/button>
+
+<<span>script type="text/javascript">
+	function promptMe(){
+    	var userAdjective = prompt("Please provide an Adjective");
+    	alert (userAdjective);
+<<span>/script>
+
+		    </code>
+		  </pre>
+	</figure>
+
+
+<h2>#Taking user input</h2>
+	<h3 class="center">In this lesson we are going to learn about how to convert something from Fahrenheit to Celsius by using a while loop and conditional statements if and else to prevent bad data from spitting out incorrect info. We are really going to dive in and take a look at how a function can be called as well by pressing the button that says press me</h3>
+
+	<button id="fahToCelBtn" onclick="fahToCel()" class="button center-button"> Press Me </button>
+
+	<script type="text/javascript">
+	/*decalare the values */
+	function fahToCel(){
+		var Celsius;
+		var Fahrenheit;
+		//The Fahrenheit to Celsius formula: Celsius=(Fahrenheit - 32)*.5556
+			Fahrenheit=prompt("Enter the degrees Fahrenheit","1");//take in input from user
+
+			if (Fahrenheit==null) /*test for cancel*/{
+				alert("Please enter a value numerical value.");	
+			}
+			else{
+				Celsius=(Fahrenheit - 32)*.5556; /*Computes number of pounds*/
+				alert("That is aproximately "+ Celsius +" degrees Celsius");
+			}
+		}	
+	</script>
+
+</article>
+
+</main>			
+
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+</body>
+<footer>
+	
+</footer>
+</html>

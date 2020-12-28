@@ -1,0 +1,192 @@
+/* main color: #FFD866 */
+
+/*General Things used across the entire program*/
+.lesson-num{
+
+}
+.code-sample{
+    width: 50%;
+    margin: 0 auto;
+    padding-left: -10%;
+    align-items: left;
+}
+
+.warning{
+    color: red;
+    text-align: center;
+}
+.button {
+    background-color: #FFD866; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    clip: 16px;
+    margin:.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.center-button{
+    float: center;
+    margin-left: 45%;
+
+}
+
+/*Lesson 1: GOLDEN LIKE THIS*/
+.gold-text{
+    color: #FFD866;
+}
+
+/*Lesson 2: Adding*/
+
+/*Lesson: CHANGING COLORs AND SHAPEs*/
+/********EX1*********/
+#blueDiv {
+    position: absolute;
+    background-color: blue;
+    width: 20%;
+    height: 250px; 
+}
+
+#redDiv {
+    position: absolute;
+    background-color: red;
+    width: 20%;
+    height: 250px; 
+}
+
+#greenDiv{
+    position: absolute;
+    background-color: green;
+    width: 20%;
+    height: 250px; 
+}
+
+.body-color-change-tut{
+    background: #C3C3C3;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  margin-left: 20%;
+}
+.color-changer{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-list{
+    display: flex;
+    margin-top:3.8%;
+
+}
+
+.code-ex-title{
+    padding-left: 17.5%;
+
+}
+
+.code-ex-one{
+    align-items: left;
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.ex-one-para{
+    text-align: right;
+    float: right;
+}
+
+
+/*********EX2*******/
+
+.color-changer-shape{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25%;
+  margin-left: -18%;
+}
+
+.button-list-2{
+    display: inline-block;
+    margin-top: 20%;
+}
+
+#blueShape{
+    position: absolute;
+    background: blue;
+    background-color: blue;
+    width: 250px;
+    height: 250px; 
+    border-radius: 50%;
+}
+
+#redShape{
+    position: absolute;
+    background-color: red;
+    width: 20%;
+    height: 250px; 
+}
+
+#greenShape{
+    position: absolute;
+    width: 0px;
+    height: 0px; 
+    border-left: 100px solid transparent; 
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid green;
+}
+
+
+
+
+/*DELETLING ANYTHING BELOW COULD CAUSE DEFECTS WITH THE CODE DISPLAYING NICELY*/
+/*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
+/* desert scheme ported from vim to google prettify */
+pre.prettyprint { display: block; background-color: #333 }
+pre .nocode { background-color: #000; color: #000 }
+pre .str { color: #ffa0a0 } /* string  - pink */
+pre .kwd { color: #f0e68c; font-weight: bold }
+pre .com { color: #87ceeb } /* comment - skyblue */
+pre .typ { color: #98fb98 } /* type    - lightgreen */
+pre .lit { color: #cd5c5c } /* literal - darkred */
+pre .pun { color: #fff }    /* punctuation */
+pre .pln { color: #fff }    /* plaintext */
+pre .tag { color: #f0e68c; font-weight: bold } /* html/xml tag    - lightyellow */
+pre .atn { color: #bdb76b; font-weight: bold } /* attribute name  - khaki */
+pre .atv { color: #ffa0a0 } /* attribute value - pink */
+pre .dec { color: #98fb98 } /* decimal         - lightgreen */
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { 
+    margin-top: 0; 
+    margin-bottom: 0; 
+    color: #000; 
+    background-color: #333; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre.prettyprint { background-color: none }
+  pre .str, code .str { color: #060 }
+  pre .kwd, code .kwd { color: #006; font-weight: bold }
+  pre .com, code .com { color: #600; font-style: italic }
+  pre .typ, code .typ { color: #404; font-weight: bold }
+  pre .lit, code .lit { color: #044 }
+  pre .pun, code .pun { color: #440 }
+  pre .pln, code .pln { color: #000 }
+  pre .tag, code .tag { color: #006; font-weight: bold }
+  pre .atn, code .atn { color: #404 }
+  pre .atv, code .atv { color: #060 }
+}
